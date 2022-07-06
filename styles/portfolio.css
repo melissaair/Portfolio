@@ -1,7 +1,7 @@
 :root {
     --primary-color: #ff5126;
-    --secondary-color: #daebee;
-    --accent-color: #b6d7de;
+    --secondary-color: #b6d7de; 
+    --accent-color: #daebee;
     --bg-color: #fcedda;
     --heading-font: 'Abril Fatface', cursive;
     --default-font: 'Poppins', sans-serif;
@@ -15,15 +15,28 @@ body {
 
 h1 {
     font-family: var(--heading-font);
-    font-size: 60px;
+    font-size: 90px;
     color: var(--primary-color);
 
 }
 
 h2 {
+    font-family: var(--heading-font);
+    font-size: 70px;
+    color: var(--primary-color);
+    font-weight: bolder;
+}
+
+h2.header {
     font-size: 20px;
     font-family: var(--default-font);
     line-height: 2;
+    color: black;
+}
+
+h3.project-title {
+    font-size: 30px;
+    font-family: var(--heading-font)
 }
 
 p {
@@ -33,6 +46,12 @@ p {
     margin: 0;
 }
 
+p.project-info {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 30px;
+}
+
 .hero {
     background: var(--secondary-color);
     text-align: center;
@@ -40,12 +59,51 @@ p {
     border-radius: 5px;
 }
 
+.project-description {
+    padding: 40px 60px;
+}
+
 .btn-contact {
     background: var(--bg-color);
     border-radius: 4px;
-    border: solid var(--accent-color) 2px;
+    border: solid var(--primary-color) 2px;
     color: var(--primary-color);
     font-size: 18px;
     line-height: 27px;
     padding: 12px 20px;
+}
+
+.btn-project {
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    color: var(--bg-color);
+    line-height: 27px;
+    padding: 12px 20px;
+}
+
+@media (max-width:960px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 44px;
+    }
+
+    h3.project-title {
+        font-size: 30px;
+    }
+
+    p.project-info {
+        font-size: 18px;
+    }
+
+    .project-description {
+        padding: 0;
+        text-align: center;
+    }
+
+    .hero {
+        padding: 80px 20px;
+    }
 }
