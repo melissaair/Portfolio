@@ -55,12 +55,40 @@ p.project-info {
 .hero {
     background: var(--secondary-color);
     text-align: center;
-    padding: 160px;
+    padding: 160px 20px;
     border-radius: 5px;
 }
 
 .project-description {
     padding: 40px 60px;
+}
+
+.about-section {
+    padding: 80px 20px;
+    margin: 30px auto;
+}
+
+.about-section-content {
+    margin: 0px;
+    padding-top: 90px;
+}
+
+.about-header {
+    color: var(--accent-color);
+}
+
+.about-section h2 {
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.about-section h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.about-section p {
+    font-size: 15px;
 }
 
 .btn-contact {
@@ -79,6 +107,10 @@ p.project-info {
     color: var(--bg-color);
     line-height: 27px;
     padding: 12px 20px;
+}
+
+.memoji {
+    max-width: 450px;
 }
 
 @media (max-width:960px) {
@@ -109,5 +141,28 @@ p.project-info {
 
     .hero {
         padding: 60px 20px;
+    }
+
+    .about-section {
+        text-align: center;
+        padding-top: 3px;
+
+    }
+
+    .about-section-content {
+        padding: 10px;
+    }
+    
+     .about-section-content h2 {
+        font-size: 48px;
+    }
+
+    .about-header {
+        font-size: 75px;
+        padding-bottom: 2px;
+    }
+
+    .memoji {
+        max-width: 200px;
     }
 }
