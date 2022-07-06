@@ -154,7 +154,15 @@ p.project-info {
     }
     
      .about-section-content h2 {
-        font-size: 48px;
+        font-size: 40px;
+    }
+
+    .about-section-content h3 {
+        font-size: 14px;
+    }
+
+    .about-section-content p {
+        font-size: 13px;
     }
 
     .about-header {
