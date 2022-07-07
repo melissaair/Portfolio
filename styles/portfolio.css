@@ -64,8 +64,12 @@ p.project-info {
 }
 
 .content-container {
-    padding: 80px 20px;
-    margin: 30px auto;
+    padding: 70px 20px;
+}
+
+.content-container h2 {
+    color: black;
+    font-size: 50px;
 }
 
 .content {
@@ -95,12 +99,6 @@ p.project-info {
     max-width: 500px;
 }
 
-.content-sub-heading {
-    font-family: var(--default-font);
-    font-size: 40px;
-    color: black;
-}
-
 .tools-section {
     display: flex;
     justify-content: space-evenly;
@@ -124,6 +122,21 @@ p.project-info {
 
 .row-two {
     padding-top: 70px;
+}
+
+.contact-container {
+    padding: 10px 20px;
+}
+
+.sub-heading {
+    font-size: 50px;
+    line-height: 50px;
+    color: black;
+}
+
+.contact h3 {
+    font-weight: bold;
+    line-height: 2;
 }
 
 .btn-contact {
@@ -241,5 +254,13 @@ p.project-info {
 
     .icon {
         max-width: 50px;
+    }
+
+    .contact-container {
+        text-align: center;
+    }
+
+    #contact {
+        font-size: 20px;
     }
 }
