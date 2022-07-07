@@ -63,33 +63,42 @@ p.project-info {
     padding: 40px 60px;
 }
 
-.about-section {
+.content-container {
     padding: 80px 20px;
     margin: 30px auto;
 }
 
-.about-section-content {
+.content {
     margin: 0px;
     padding-top: 90px;
 }
 
-.about-header {
+.content-header {
     color: var(--primary-color);
 }
 
-.about-section h2 {
+.content h2 {
     font-size: 50px;
     line-height: 50px;
     color: black;
 }
 
-.about-section h3 {
-    font-size: 18px;
+.content h3 {
     font-weight: bold;
 }
 
-.about-section p {
+.content p {
     font-size: 15px;
+}
+
+.project-image {
+    max-width: 500px;
+}
+
+.content-sub-heading {
+    font-family: var(--default-font);
+    font-size: 40px;
+    color: black;
 }
 
 .tools-section {
@@ -178,31 +187,35 @@ p.project-info {
         padding: 60px 20px;
     }
 
-    .about-section {
+    .content-container {
         text-align: center;
         padding-top: 3px;
 
     }
 
-    .about-section-content {
+    .content {
         padding: 10px;
     }
     
-     .about-section-content h2 {
+     .content h2 {
         font-size: 40px;
     }
 
-    .about-section-content h3 {
+    .content h3 {
         font-size: 14px;
     }
 
-    .about-section-content p {
+    .content p {
         font-size: 13px;
     }
 
-    .about-header {
+    .content-header {
         font-size: 75px;
         padding-bottom: 2px;
+    }
+
+    .content-sub-heading {
+        font-size: 20px;
     }
 
     .memoji {
