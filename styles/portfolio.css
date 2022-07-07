@@ -42,7 +42,7 @@ h3.project-title {
 p {
     font-family: var(--default-font);
     font-weight: normal;
-    font-size: 30px;
+    font-size: 14px;
     margin: 0;
 }
 
@@ -91,6 +91,30 @@ p.project-info {
     font-size: 15px;
 }
 
+.tools-section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.tools-header {
+    color: var(--accent-color);
+    font-size: 120px;
+    padding-bottom: 80px;
+}
+
+.tool {
+    border: solid var(--primary-color) 1px;
+    border-radius: 8px;
+    padding: 30px;
+    margin: 20px;
+}
+
+.row-two {
+    padding-top: 70px;
+}
+
 .btn-contact {
     background: var(--bg-color);
     border-radius: 4px;
@@ -111,6 +135,14 @@ p.project-info {
 
 .memoji {
     max-width: 450px;
+}
+
+.icon {
+    max-width: 90px;
+}
+
+.icon-figma {
+    max-width: 50px;
 }
 
 @media (max-width:960px) {
@@ -172,5 +204,26 @@ p.project-info {
 
     .memoji {
         max-width: 200px;
+    }
+
+    .tools-header {
+        font-size: 75px;
+        padding-bottom: 20px;
+    }
+
+    .tools-section {
+        flex-direction: column;
+    }
+
+    .tools-section h3 {
+        font-weight: bold;
+    }
+
+    .row-two {
+    padding-top: 0;
+}
+
+    .icon {
+        max-width: 50px;
     }
 }
