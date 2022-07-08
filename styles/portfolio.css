@@ -237,6 +237,11 @@ nav li.active a {
 
     }
 
+    .content-container h2 {
+        padding-top: 20px;
+        font-size: 30px;
+    }
+
     .content {
         padding: 10px;
     }
@@ -246,7 +251,7 @@ nav li.active a {
     }
 
     .content h3 {
-        font-size: 14px;
+        font-weight: bold;
     }
 
     .content p {
@@ -300,6 +305,6 @@ nav li.active a {
     }
 
     nav li {
-        font-size: 12px;
+        font-size: 14px;
     }
 }
