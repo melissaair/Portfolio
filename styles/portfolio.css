@@ -55,7 +55,7 @@ p.project-info {
 .hero {
     background: var(--secondary-color);
     text-align: center;
-    padding: 160px 20px;
+    padding: 100px 20px;
     border-radius: 5px;
 }
 
@@ -170,6 +170,37 @@ p.project-info {
     max-width: 50px;
 }
 
+.logo {
+    max-height: 40px;
+}
+nav {
+    padding: 20px;
+    background-color: var(--secondary-color);
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 40px;
+    margin-left: 15px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    transition: all 150ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+    color: var(--primary-color);
+}
+
 @media (max-width:960px) {
     h1 {
         font-size: 50px;
@@ -180,7 +211,7 @@ p.project-info {
     }
 
     h2.header {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     h3.project-title {
@@ -197,7 +228,7 @@ p.project-info {
     }
 
     .hero {
-        padding: 60px 20px;
+        padding: 30px 20px;
     }
 
     .content-container {
@@ -262,5 +293,13 @@ p.project-info {
 
     #contact {
         font-size: 20px;
+    }
+
+    .logo {
+        max-height: 30px;
+    }
+
+    nav li {
+        font-size: 12px;
     }
 }
