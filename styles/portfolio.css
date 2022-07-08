@@ -52,11 +52,38 @@ p.project-info {
     line-height: 30px;
 }
 
+nav {
+    padding: 20px 30px;
+    background-color: var(--secondary-color);
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 40px;
+    margin-left: 15px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    transition: all 150ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+    color: var(--primary-color);
+}
+
 .hero {
     background: var(--secondary-color);
     text-align: center;
     padding: 100px 20px;
-    border-radius: 5px;
 }
 
 .project-description {
@@ -79,6 +106,7 @@ p.project-info {
 
 .content-header {
     color: var(--primary-color);
+    padding-top: 70px;
 }
 
 .content h2 {
@@ -172,33 +200,6 @@ p.project-info {
 
 .logo {
     max-height: 40px;
-}
-nav {
-    padding: 20px;
-    background-color: var(--secondary-color);
-}
-
-nav li {
-    display: inline;
-    list-style: none;
-    line-height: 40px;
-    margin-left: 15px;
-}
-
-nav ul {
-    padding: 0;
-    margin: 0;
-}
-
-nav a {
-    text-decoration: none;
-    color: black;
-    transition: all 150ms ease-in-out;
-}
-
-nav a:hover,
-nav li.active a {
-    color: var(--primary-color);
 }
 
 @media (max-width:960px) {
