@@ -123,7 +123,8 @@ footer .social-links a:hover {
 
 .project-image {
     max-width: 500px;
-    border-radius: 4px;
+    border-radius: 8px;
+    box-shadow: 1px -1px 30px .1px rgba(255, 81, 38, .5);
 }
 
 .project h3 {
@@ -311,7 +312,7 @@ footer .social-links a:hover {
     }
 
     .content p {
-        font-size: 13px;
+        font-size: 15px;
     }
 
     .content-header {
