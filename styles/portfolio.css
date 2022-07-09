@@ -274,6 +274,10 @@ footer .social-links a:hover {
         text-align: center;
     }
 
+    .project-image {
+        max-width: 250px;
+    }
+
     .hero {
         padding: 30px 20px;
     }
