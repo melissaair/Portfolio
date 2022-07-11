@@ -111,6 +111,11 @@ footer .social-links a:hover {
     background-color: var(--primary-color);
 }
 
+footer p a{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
 .hero {
     background: var(--secondary-color);
     text-align: center;
