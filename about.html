@@ -1,107 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#daebee">
-    <meta name="description" content="About Melissa, a front-end developer based in Los Angeles, CA">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="/styles/portfolio.css">
-    <link rel="stylesheet" href="/script.js">
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/9c59415c5d.js" crossorigin="anonymous"></script>
-    <title>Melissa Ibarra-Ramos</title>
-</head>
-<body>
-    <nav class="d-flex justify-content-between fixed-top">
-        <a href="/index.html">
-            <img src="/images/MIR Logo-orange.png" class="logo" alt="Melissa logo" title="Homepage"/>
-        </a>
-        <ul>
-            <li>
-                <a href="/index.html" title="Homepage">Home</a>
-            </li>
-            <li class="active">
-                <a href="/about.html" title="About Me">About</a>
-            </li>
-            <li>
-                <a href="/work.html" title="Melissa's Work">Work</a>
-            </li>
-            <li>
-                <a href="/contact.html" title="Contact Melissa">Contact</a>
-            </li>
-        </ul>
-  </nav>
-    <h1 class="text-center mt-5 content-header">About Me</h1>
-    <div class="content-container container">
-        <div class="row">
-            <div class="col-lg-6">
-                <img src="/images/memoji.png" alt="" class="mx-auto d-block memoji">
-            </div>
-            <div class="col-lg-6">
-                <div class="content">
-                    <h2 class="mb-4">Hi, I'm Melissa <br>Ibarra-Ramos!</h2>
-                    <h3 class="mb-3">Front-end Developer<br>Based in Los Angeles 🌴</h3>
-                    <p class="mb-5 text-muted">I'm a multidisciplinary designer born and raised in the San Fernando Valley. I love watching films, learning about design, and spending time with my family.</p>
-                    <a href="#" class="btn btn-project">View my projects</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <h1 class="text-center my-5 content-header">My Tools</h1>
-    <div class="tools-section text-center">
-        <div class="mb-5 text-center tool">
-            <img src="/images/Adobe_Ai.png" class="img-fluid icon my-4">
-            <h3>Adobe AI</h3>
-            <p>Used to create vector graphics</p>
-        </div>
-        <div class="mb-5 text-center tool">
-            <img src="/images/Adobe_Ps.png" class="img-fluid icon my-4">
-            <h3>Adobe PS</h3>
-            <p>Image editing and photo retouching</p>
-        </div>
-        <div class="mb-5 text-center tool">
-            <img src="/images/Adobe_Id.png" class="img-fluid icon my-4">
-            <h3>Adobe ID</h3>
-            <p>Layout designs for PDFs and presentations</p>
-        </div>
-    </div>
-    <div class="tools-section row-two text-center">
-        <div class="mb-5 text-center tool">
-            <img src="/images/Bootstrap_logo.png" class="img-fluid icon my-4">
-            <h3>Bootstrap</h3>
-            <p>Responsive design and UI interface</p>
-        </div>
-        <div class="mb-5 text-center tool">
-            <img src="/images/Figma.png" class="img-fluid icon-figma my-4">
-            <h3>Figma</h3>
-            <p>Design tool for web designs</p>
-        </div>
-        <div class="mb-5 text-center tool">
-            <img src="/images/invision.png" class="img-fluid icon my-4">
-            <h3>inVision</h3>
-            <p>Quick free-hand sketching for designs</p>
-        </div>  
-    </div>
-    <div class="container">
-        <hr class="divider">
-        <footer>
-            <div class="d-flex justify-content-center mb-4">
-                <a href="mailto:melissa.aramos@me.com" class="email-link" title="Email Melissa">melissa.aramos@me.com</a>
-            </div>
-  
-            <div class="social-links d-flex justify-content-center mb-5">
-                <a href="https://github.com/melissaair" target="_blank" title="Github Profile"><i class="fa-brands fa-github"></i></a>
-                <a href="https://Instagram.com/melissaar" target="_blank" title="Instagram Profile"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/in/melissa-ibarra-ramos/" target="_blank" title="LinkedIn Profile"><i class="fa-brands fa-linkedin"></i></a>
-            </div>
-            <p class="text-center my-4">This site was coded by Melissa Ibarra-Ramos and is <a href="https://github.com/melissaair/portfolio" target="_blank" title="Portfolio Github">open-sourced</a></p>
-        </footer>
-    </div>
-    
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="theme-color" content="#daebee" />
+		<meta
+			name="description"
+			content="About Melissa, a front-end developer based in Los Angeles, CA"
+		/>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="/styles/portfolio.css" />
+		<link rel="stylesheet" href="/script.js" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@400;600&display=swap"
+			rel="stylesheet"
+		/>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://kit.fontawesome.com/9c59415c5d.js"
+			crossorigin="anonymous"
+		></script>
+		<title>Melissa Ibarra-Ramos</title>
+	</head>
+	<body>
+		<nav class="d-flex justify-content-between fixed-top">
+			<a href="/index.html">
+				<img
+					src="/images/MIR Logo-orange.png"
+					class="logo"
+					alt="Melissa logo"
+					title="Homepage"
+				/>
+			</a>
+			<ul>
+				<li>
+					<a href="/index.html" title="Homepage">Home</a>
+				</li>
+				<li class="active">
+					<a href="/about.html" title="About Me">About</a>
+				</li>
+				<li>
+					<a href="/work.html" title="Melissa's Work">Work</a>
+				</li>
+				<li>
+					<a href="/contact.html" title="Contact Melissa">Contact</a>
+				</li>
+			</ul>
+		</nav>
+		<h1 class="text-center mt-5 content-header">About Me</h1>
+		<div class="content-container container">
+			<div class="row">
+				<div class="col-lg-6">
+					<img src="/images/memoji.png" alt="" class="mx-auto d-block memoji" />
+				</div>
+				<div class="col-lg-6">
+					<div class="content">
+						<h2 class="mb-4">Hi, I'm Melissa <br />Ibarra-Ramos!</h2>
+						<h3 class="mb-3">
+							Front-end Developer<br />Based in Los Angeles 🌴
+						</h3>
+						<p class="mb-5 text-muted">
+							I'm a multidisciplinary designer born and raised in the San
+							Fernando Valley. I love watching films, learning about design, and
+							spending time with my family.
+						</p>
+						<a href="/work.html" class="btn btn-project">View my projects</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<h1 class="text-center my-5 content-header">My Tools</h1>
+		<div class="tools-section text-center">
+			<div class="mb-5 text-center tool">
+				<img src="/images/Adobe_Ai.png" class="img-fluid icon my-4" />
+				<h3>Adobe AI</h3>
+				<p>Used to create vector graphics</p>
+			</div>
+			<div class="mb-5 text-center tool">
+				<img src="/images/Adobe_Ps.png" class="img-fluid icon my-4" />
+				<h3>Adobe PS</h3>
+				<p>Image editing and photo retouching</p>
+			</div>
+			<div class="mb-5 text-center tool">
+				<img src="/images/Adobe_Id.png" class="img-fluid icon my-4" />
+				<h3>Adobe ID</h3>
+				<p>Layout designs for PDFs and presentations</p>
+			</div>
+		</div>
+		<div class="tools-section row-two text-center">
+			<div class="mb-5 text-center tool">
+				<img src="/images/Bootstrap_logo.png" class="img-fluid icon my-4" />
+				<h3>Bootstrap</h3>
+				<p>Responsive design and UI interface</p>
+			</div>
+			<div class="mb-5 text-center tool">
+				<img src="/images/Figma.png" class="img-fluid icon-figma my-4" />
+				<h3>Figma</h3>
+				<p>Design tool for web designs</p>
+			</div>
+			<div class="mb-5 text-center tool">
+				<img src="/images/invision.png" class="img-fluid icon my-4" />
+				<h3>inVision</h3>
+				<p>Quick free-hand sketching for designs</p>
+			</div>
+		</div>
+		<div class="container">
+			<hr class="divider" />
+			<footer>
+				<div class="d-flex justify-content-center mb-4">
+					<a
+						href="mailto:melissa.aramos@me.com"
+						class="email-link"
+						title="Email Melissa"
+						>melissa.aramos@me.com</a
+					>
+				</div>
+
+				<div class="social-links d-flex justify-content-center mb-5">
+					<a
+						href="https://github.com/melissaair"
+						target="_blank"
+						title="Github Profile"
+						><i class="fa-brands fa-github"></i
+					></a>
+					<a
+						href="https://Instagram.com/melissaar"
+						target="_blank"
+						title="Instagram Profile"
+						><i class="fa-brands fa-instagram"></i
+					></a>
+					<a
+						href="https://www.linkedin.com/in/melissa-ibarra-ramos/"
+						target="_blank"
+						title="LinkedIn Profile"
+						><i class="fa-brands fa-linkedin"></i
+					></a>
+				</div>
+				<p class="text-center my-4">
+					This site was coded by Melissa Ibarra-Ramos and is
+					<a
+						href="https://github.com/melissaair/portfolio"
+						target="_blank"
+						title="Portfolio Github"
+						>open-sourced</a
+					>
+				</p>
+			</footer>
+		</div>
+	</body>
 </html>
